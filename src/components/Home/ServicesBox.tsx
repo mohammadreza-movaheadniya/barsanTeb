@@ -1,7 +1,7 @@
 import Image from "next/image";
 const ServicesBox = ({ iconSrc, title }: { iconSrc: string, title: string }) => {
     return (
-        <section className="flex flex-col gap-4 items-center mx-13.5">
+        <section className="flex flex-col gap-4 items-center ">
 
             <div className="w-18 h-18 flex justify-center items-center rounded-[12px] 
 bg-[linear-gradient(to_bottom_right,#86FF99,#88C3F7,#E9B0EA,#E0ABEE)]">

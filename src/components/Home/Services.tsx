@@ -9,7 +9,7 @@ const Services = () => {
                 <p className="text-base/[24px] tracking-wider">هر آنچه برای سلامت و تندرستی طبیعی نیاز<br className="lg:hidden" /> دارید در یک پلتفرم یکپارچه</p>
             </div>
             {/* box Section */}
-            <div className="grid grid-cols-2 gap-y-8.25 lg:grid-cols-5 mb-16 lg:mb-24">
+            <div className="grid grid-cols-2 gap-y-8.25 gap-x-0 lg:grid-cols-5 mb-16 lg:mb-24">
                 {servicesData.map((item, index) => (
                     <ServicesBox key={index} {...item}/>
                 ))}

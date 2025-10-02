@@ -1,13 +1,12 @@
 // "use client"
-const HamberMenu = () => (
+const HamberMenu = ({ onClick,className }: {onClick: ()=> void ,className: string}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={40}
     height={40}
     fill="none"
-    // onClick={()=>{
-    //   alert("cc")
-    // }}
+    onClick={onClick}
+    className={className}
   >
     <g
       stroke="#1C1B1B"

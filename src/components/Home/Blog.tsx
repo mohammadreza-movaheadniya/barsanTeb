@@ -7,7 +7,7 @@ const Blog = () => {
                 <p className="text-[32px]/[40px] font-bold text-[#1C1B1B]"> آخرین اخبار از وبلاگ ما</p>
                 <p className="text-[#444749] font-normal text-base/[24px] tracking-wider px-2"> بینش‌های تخصصی و نکات بهداشتی از متخصصان طب سنتی ما </p>
             </div>
-            <div className="flex flex-col lg:flex-row gap-4 mx-4 lg:mx-50 ">
+            <div className="flex flex-col lg:flex-row gap-4  ">
                 <BlogCard />
                 <BlogCard />
                 <BlogCard />

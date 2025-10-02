@@ -4,19 +4,19 @@ import LandingLogo from "../svgs/LandingLogo";
 
 const About = () => {
     return (
-        <section className=" bg-gradient-to-t lg:bg-gradient-to-r from-[#00808029] to-[#085DA7] pt-12 lg:pt-16">
+        <section className=" bg-gradient-to-t lg:bg-gradient-to-r from-[#00808029] to-[#085DA7] pt-12 lg:pt-16 ">
             <div className="text-white mx-4 lg:mx-50 flex flex-col lg:flex-row justify-between items-center">
                 <div className="flex flex-col">
-                    <div className="max-w-84 lg:max-w-150" >
-                        <h3 className="text-[32px]/10 tracking-normal lg:text-[57px]/16 lg:tracking-tight mb-4" >
+                    <div className="max-w-84 lg:max-w-150 " >
+                        <h3 className="text-[32px]/10 tracking-normal lg:text-[57px]/16 lg:tracking-tight mb-4 font-bold" >
                             <span className="text-[#78FD95]"> برسان طب </span>
                             اعتماد شما برای طب سنتی
                         </h3>
-                        <p>پلتفرمی همه‌کاره که پزشکان متخصص، داروهای گیاهی،
+                        <p className="text-[#E0E3E4]">پلتفرمی همه‌کاره که پزشکان متخصص، داروهای گیاهی،
                             ابزارهای سلامت مبتنی بر هوش مصنوعی
                             و راه‌حل‌های طبیعی را برای سفر سلامتی شما ترکیب می‌کند.
                         </p>
-                        <div className="flex gap-x-3 mt-8">
+                        <div className="flex gap-x-3 lg:gap-x-8 mt-8">
                             <button className="text-black bg-white py-2 px-4 rounded-lg">پزشکان</button>
                             <button className="text-white">تست مزاج</button>
                         </div>

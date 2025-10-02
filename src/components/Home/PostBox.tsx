@@ -29,7 +29,7 @@ const PostBox = ({ IsImage }: { IsImage: boolean }) => {
                     </div>
                 )}
                 {/* link share  */}
-                <div className="flex gap-x-4">
+                <div className="flex gap-x-4 my-4">
                     <div className="flex items-center gap-2"> <span className="text-xs/[16px] tracking-wide py-2 text-[#747879]">اشتراک گذاری</span><ShareIcon className="" /></div>
                     <div className="flex items-center gap-2"> <span className="text-xs/[16px] tracking-wide py-2 text-[#747879]">8</span><CommentIcon className="" /></div>
                     <div className="flex items-center gap-2"> <span className="text-xs/[16px] tracking-wide py-2 text-[#747879]">12</span><LikeIcon className="" /></div>
